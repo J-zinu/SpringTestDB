@@ -14,6 +14,5 @@ public interface MemberMapper {
     List<Member> getList();
 
     //xml방식
-//    @Select("getList2")
     List<Member> getList2();
 }
